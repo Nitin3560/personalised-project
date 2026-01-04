@@ -83,3 +83,23 @@
   background: #111827;
   color: white;
 }
+.below-status {
+  margin-top: 12px;
+  display: flex;
+  justify-content: center;
+}
+
+.below-status::before {
+  content: "";
+}
+
+.below-status {
+  background: #f3f4f6;
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-size: 13px;
+  color: #111827;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
